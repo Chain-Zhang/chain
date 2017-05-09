@@ -39,7 +39,7 @@ class ArticleController extends Controller
 
     public function toAdd()
     {
-        $categories = Category::where('label', 'blog')->get();
+        $categories = Category::all();
         return view('member.article_add',
             [
                 'categories' => $categories
