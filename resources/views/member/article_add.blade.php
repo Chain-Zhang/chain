@@ -1,5 +1,7 @@
 @extends('component.memlayout')
-
+@section('title')
+    blog add
+@stop
 @section('content')
     <div class="container" style="margin-top: 50px">
         <div class="page-header">
