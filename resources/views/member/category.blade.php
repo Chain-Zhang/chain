@@ -1,4 +1,7 @@
 @extends('component.memlayout')
+@section('title')
+category
+@stop
 
 @section('content')
     <div class="container" style="margin-top: 50px">
