@@ -18,7 +18,7 @@
 
     <div class="blog-header">
         <h1 class="blog-title">Chain's Blog</h1>
-        <p class="lead blog-description">The official example template of creating a blog with Bootstrap.</p>
+        <p class="lead blog-description">Thoughts, stories and ideas.</p>
     </div>
 
     <div class="row">
@@ -28,7 +28,7 @@
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
             <div class="sidebar-module sidebar-module-inset">
                 <h4>About</h4>
-                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                <p><em>Chain</em> worked as a middle-level Software Engineer in Snmi. His major work was <em>PHP</em> development based on <em>Laravel</em> framework and <em>C#</em> development based on <em>Asp.Net MVC</em> framework.</p>
             </div>
             <div class="sidebar-module sidebar-module-inset ">
                 <h4>分类</h4>
