@@ -9,7 +9,10 @@
 namespace App\Http\Controllers\Blog;
 
 use App\Entities\Article;
+use App\Entities\Category;
+use App\Entities\AtcContent;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Log;
 
 class ArticleController extends Controller
 {
@@ -18,8 +21,24 @@ class ArticleController extends Controller
      -----------------------------------------------*/
     public function toArticles(){
         $articles = Article::where([])->orderby('created_at', 'desc')->skip(0)->take(20)->get();
+        $categories = Category::all();
         return view('blog.article',[
-            'articles' => $articles
+            'articles' => $articles,
+            'categories' => $categories
         ]);
+    }
+
+    public function toDetail($id)
+    {
+        $article = Article::find($id);
+        $atc_content = AtcContent::where('article_id', $id)->first();
+        $article->content = $atc_content->content;
+        $current_category = Category::find($article->category_id);
+        $article->category_name = $current_category->name;
+        Log::info('博客标题'. $article->title);
+        return view('blog.article_detail',
+            [
+                'article'=>$article
+            ]);
     }
 }

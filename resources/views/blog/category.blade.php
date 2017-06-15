@@ -7,7 +7,8 @@
 @section('main')
     <div class="col-sm-8 blog-main">
         <ol class="breadcrumb">
-            <li class="active">首页</li>
+            <li><a href="{{url('blog')}}">首页</a></li>
+            <li class="active">{{$current_category->name}}</li>
         </ol>
         @foreach($articles as $article)
             <div class="blog-post">
@@ -18,13 +19,6 @@
                 </div>
             </div><!-- /.blog-post -->
         @endforeach
-        @if(count($articles) >= 10)
-        <nav>
-            <ul class="pager">
-                <li><a href="#">查看更多</a></li>
-            </ul>
-        </nav>
-        @endif
 
     </div><!-- /.blog-main -->
 @stop

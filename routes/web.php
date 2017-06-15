@@ -19,7 +19,9 @@ Route::get('/', function () {
  *blog模块路由配置
  -----------------------------------------------*/
 Route::group(['prefix' => 'blog'], function (){
-
+    Route::get('/', 'Blog\ArticleController@toArticles');
+    Route::get('article/{id}', 'Blog\ArticleController@toDetail');
+    Route::get('category/{id}', 'Blog\CategoryController@toCategory');
 });
 
 /*-----------------------------------------------
