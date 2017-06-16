@@ -1,9 +1,11 @@
 @extends('component.memlayout')
-
+@section('style')
+    <link rel="stylesheet" href="{{asset('editormd/editormd.min.css')}}">
+@stop
 @section('content')
     <div class="container" style="margin-top: 50px">
         <div class="page-header">
-            <h3>添加博客</h3>
+            <h3>修改博客</h3>
         </div>
         <div class="panel-body">
             <form class="form-horizontal" id="article-form" method="post">
@@ -17,17 +19,15 @@
                 <div class="form-group">
                     <label class="col-sm-2 control-label">概述</label>
                     <div class="col-sm-10">
-                        <textarea class="form-control" rows="3" name="summary">
-                            {{$article->summary}}
-                        </textarea>
+                        <textarea class="form-control" rows="3" name="summary">{{$article->summary}}</textarea>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="col-sm-2 control-label">内容</label>
                     <div class="col-sm-10">
-                        <textarea class="form-control" id="blogContent" placeholder="Content" rows="15" name="content">
-                            {{$article->content}}
-                        </textarea>
+                        <div id="editor_md">
+                            <textarea style="display: none">{{$article->content}}</textarea>
+                        </div>
                     </div>
                 </div>
                 <div class="form-group">
@@ -68,9 +68,25 @@
 @stop
 
 @section('script')
-    <script src="{{asset('js/kindeditor-min.js')}}" type="text/javascript"></script>
+    <script src="{{asset('js/lrz.bundle.js')}}" type="text/javascript"></script>
+    <script src="{{asset('editormd/editormd.min.js')}}" type="text/javascript"></script>
 <script type="text/javascript">
-    
+
+    var editor;
+    $(function () {
+        editor = editormd("editor_md",{
+            width:"100%",
+            height:600,
+            syncScrolling:"single",
+            path:"{{asset('/editormd/lib/')}}" + "/",
+            tex:true,
+            flowChart       : true,
+            sequenceDiagram:true,
+            saveHTMLToTextarea : true,
+            imageUploadURL: "php/upload.php",
+        });
+    });
+
     $(function () {
        $('#article-form').validate({
             rules:{
@@ -108,23 +124,67 @@
            }
        });
     });
-    
-    $(function(){
-        var editor = KindEditor.create("#blogContent", {
-            uploadJson: "/upload",
-            fileManagerJson: "/board/keditor/filemanager",
-            allowFileManager: true,
-            filterMode : false,
-            afterBlur: function(){this.sync();}
-        });
-    })
 
+    function paste(event) {
+        var clipboardData = event.clipboardData;
+        var items, item, types;
+        if (clipboardData) {
+            items = clipboardData.items;
+            if (!items) {
+                return;
+            }
+            // 保存在剪贴板中的数据类型
+            types = clipboardData.types || [];
+            for (var i = 0; i < types.length; i++) {
+                if (types[i] === 'Files') {
+                    item = items[i];
+                    break;
+                }
+            }
+            // 判断是否为图片数据
+            if (item && item.kind === 'file' && item.type.match(/^image\//i)) {
+                // 读取该图片
+                var file = item.getAsFile(),
+                        reader = new FileReader();
+                reader.readAsDataURL(file);
+                reader.onload = function () {
+                    //前端压缩
+                    lrz(reader.result, {width: 1080}).then(function (res) {
+                        $.ajax({
+                            url: "{{asset('php-sdk/myapis/uploadImageToQiliu.php')}}",
+                            type: 'post',
+                            data: {
+                                "image": res.base64,
+                                "name": new Date().getTime() + ".png"
+                            },
+                            contentType: 'application/x-www-form-urlencoded;charest=UTF-8',
+                            success: function (data) {
+                                var imageName;
+                                try {
+                                    imageName = JSON.parse(data).key;
+                                } catch (e) {
+                                    alert(e.toString);
+                                }
+
+                                var qiniuUrl = '![](http://opgmvuzyu.bkt.clouddn.com/' + imageName + ')';
+
+                                editor.insertValue(qiniuUrl);
+                            }
+                        })
+                    });
+                }
+            }
+        }
+    }
+    document.addEventListener('paste', function (event) {
+        paste(event);
+    })
     function _addArticle() {
         var id = $('input[name=id]').val();
         var title = $('input[name=title]').val();
         var keywords = $('input[name=keywords]').val();
         var summary = $('textarea[name=summary]').val();
-        var content = $('textarea[name=content]').val();
+        var content = editor.getMarkdown();
         var category_id = $('select[name=category_id]').val();
         var status = $('input[name=status]:checked').val();
         console.log(title);

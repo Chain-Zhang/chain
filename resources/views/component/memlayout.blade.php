@@ -8,6 +8,7 @@
     {{--<link href="{{asset('css/bootstrap.css')}}" media="all" rel="stylesheet" type="text/css" />--}}
     <link href="{{asset('css/sweetalert.css')}}" media="all" rel="stylesheet" type="text/css" />
     <link href="{{asset('css/font-awesome.css')}}" media="all" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="{{asset('images/logo.ico')}}" type="image/x-icon"/>
     @yield('style')
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
     {{--<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>--}}

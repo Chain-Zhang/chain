@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Chain's Blog</title>
-
+        <link rel="icon" href="{{asset('images/logo.ico')}}" type="image/x-icon"/>
         <!-- Fonts -->
         {{--<link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">--}}
         {{--<link href="{{asset('css/app.css')}}" media="all" rel="stylesheet" type="text/css" />--}}

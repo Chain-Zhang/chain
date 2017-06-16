@@ -10,6 +10,7 @@
     <title>@yield('title')</title>
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{asset('css/blog.css')}}" rel="stylesheet">
+    <link rel="icon" href="{{asset('images/logo.ico')}}" type="image/x-icon"/>
     @yield('style')
 </head>
 

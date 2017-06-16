@@ -2,9 +2,612 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb1d4906-a86d-454d-a416-ed1f221d1d6f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/editormd-logo.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/editormd-logo.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/editormd-logo.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/loading@2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/loading@3x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logo.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/php-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/editormd.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/editormd.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/comment/comment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/comment/continuecomment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/dialog/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/dialog/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/display/fullscreen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/display/fullscreen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/display/panel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/display/placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/display/rulers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/edit/closebrackets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/edit/closetag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/edit/continuelist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/edit/matchbrackets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/edit/matchtags.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/edit/trailingspace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/fold/brace-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/fold/comment-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/fold/foldcode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/fold/foldgutter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/fold/foldgutter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/fold/indent-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/fold/markdown-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/fold/xml-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/hint/anyword-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/hint/css-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/hint/html-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/hint/javascript-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/hint/show-hint.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/hint/show-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/hint/sql-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/hint/xml-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/lint/coffeescript-lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/lint/css-lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/lint/javascript-lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/lint/json-lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/lint/lint.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/lint/lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/lint/yaml-lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/merge/merge.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/merge/merge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/mode/loadmode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/mode/multiplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/mode/multiplex_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/mode/overlay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/mode/simple.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/runmode/colorize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/runmode/runmode-standalone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/runmode/runmode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/runmode/runmode.node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/scroll/annotatescrollbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/scroll/scrollpastend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/scroll/simplescrollbars.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/scroll/simplescrollbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/search/match-highlighter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/search/matchesonscrollbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/search/matchesonscrollbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/search/search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/search/searchcursor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/selection/active-line.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/selection/mark-selection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/selection/selection-pointer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/tern/tern.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/tern/tern.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/tern/worker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addon/wrap/hardwrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/addons.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/codemirror.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/codemirror.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/lib/codemirror.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/lib/codemirror.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/apl/apl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/apl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/asterisk/asterisk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/asterisk/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/clike/clike.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/clike/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/clike/scala.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/clojure/clojure.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/clojure/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/cobol/cobol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/cobol/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/coffeescript/coffeescript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/coffeescript/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/commonlisp/commonlisp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/commonlisp/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/css/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/css/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/css/less.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/css/less_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/css/scss.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/css/scss_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/css/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/cypher/cypher.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/cypher/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/d/d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/d/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/dart/dart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/dart/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/diff/diff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/diff/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/django/django.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/django/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/dockerfile/dockerfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/dockerfile/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/dtd/dtd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/dtd/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/dylan/dylan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/dylan/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/ebnf/ebnf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/ebnf/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/ecl/ecl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/ecl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/eiffel/eiffel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/eiffel/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/erlang/erlang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/erlang/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/forth/forth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/forth/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/fortran/fortran.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/fortran/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/gas/gas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/gas/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/gfm/gfm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/gfm/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/gfm/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/gherkin/gherkin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/gherkin/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/go/go.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/go/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/groovy/groovy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/groovy/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/haml/haml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/haml/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/haml/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/haskell/haskell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/haskell/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/haxe/haxe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/haxe/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/htmlembedded/htmlembedded.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/htmlembedded/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/htmlmixed/htmlmixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/htmlmixed/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/http/http.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/http/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/idl/idl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/idl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/jade/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/jade/jade.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/javascript/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/javascript/javascript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/javascript/json-ld.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/javascript/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/javascript/typescript.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/jinja2/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/jinja2/jinja2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/julia/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/julia/julia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/kotlin/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/kotlin/kotlin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/livescript/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/livescript/livescript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/lua/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/lua/lua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/markdown/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/markdown/markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/markdown/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/meta.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/mirc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/mirc/mirc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/mllike/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/mllike/mllike.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/modelica/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/modelica/modelica.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/nginx/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/nginx/nginx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/ntriples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/ntriples/ntriples.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/octave/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/octave/octave.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/pascal/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/pascal/pascal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/pegjs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/pegjs/pegjs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/perl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/perl/perl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/php/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/php/php.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/php/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/pig/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/pig/pig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/properties/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/properties/properties.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/puppet/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/puppet/puppet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/python/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/python/python.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/q/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/q/q.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/r/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/r/r.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/rpm/changes/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/rpm/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/rpm/rpm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/rst/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/rst/rst.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/ruby/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/ruby/ruby.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/ruby/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/rust/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/rust/rust.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/sass/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/sass/sass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/scheme/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/scheme/scheme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/shell/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/shell/shell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/shell/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/sieve/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/sieve/sieve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/slim/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/slim/slim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/slim/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/smalltalk/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/smalltalk/smalltalk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/smarty/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/smarty/smarty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/smartymixed/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/smartymixed/smartymixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/solr/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/solr/solr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/soy/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/soy/soy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/sparql/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/sparql/sparql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/spreadsheet/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/spreadsheet/spreadsheet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/sql/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/sql/sql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/stex/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/stex/stex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/stex/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/stylus/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/stylus/stylus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/tcl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/tcl/tcl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/textile/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/textile/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/textile/textile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/tiddlywiki/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/tiddlywiki/tiddlywiki.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/tiddlywiki/tiddlywiki.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/tiki/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/tiki/tiki.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/tiki/tiki.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/toml/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/toml/toml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/tornado/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/tornado/tornado.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/turtle/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/turtle/turtle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/vb/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/vb/vb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/vbscript/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/vbscript/vbscript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/velocity/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/velocity/velocity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/verilog/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/verilog/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/verilog/verilog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/xml/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/xml/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/xml/xml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/xquery/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/xquery/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/xquery/xquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/yaml/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/yaml/yaml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/z80/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/mode/z80/z80.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/modes.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/3024-day.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/3024-night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/ambiance-mobile.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/ambiance.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/base16-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/base16-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/blackboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/cobalt.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/colorforth.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/eclipse.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/elegant.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/erlang-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/lesser-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/mbo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/mdn-like.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/midnight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/monokai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/neat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/neo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/paraiso-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/paraiso-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/pastel-on-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/rubyblue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/solarized.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/the-matrix.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/tomorrow-night-bright.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/tomorrow-night-eighties.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/twilight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/vibrant-ink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/xq-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/xq-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/codemirror/theme/zenburn.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/flowchart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/jquery.flowchart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/marked.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/prettify.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/raphael.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/sequence-diagram.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/lib/underscore.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/php/cross-domain-upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/php/editormd.uploader.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/php/post.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/php/upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/php/upload_callback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/plugins/code-block-dialog/code-block-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/plugins/emoji-dialog/emoji-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/plugins/emoji-dialog/emoji.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/plugins/goto-line-dialog/goto-line-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/plugins/help-dialog/help-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/plugins/help-dialog/help.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/plugins/html-entities-dialog/html-entities-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/plugins/html-entities-dialog/html-entities.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/plugins/image-dialog/image-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/plugins/link-dialog/link-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/plugins/plugin-template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/plugins/preformatted-text-dialog/preformatted-text-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/plugins/reference-link-dialog/reference-link-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/plugins/table-dialog/table-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/editormd/plugins/test-plugin/test-plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/editormd-logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lrz.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/bucket_mgr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/bucket_mgr_init.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/callback.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/download_token.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/fetch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/file_copy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/file_delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/file_move.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/file_stat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/image_url_builder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/list_file.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/mkzip.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/notify.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/persistent_fop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/persistent_fop_init.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/persistent_fop_status.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/pfop_vframe.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/pfop_watermark.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/qetag.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/up.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/upload_and_callback.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/upload_and_pfop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/upload_mgr_init.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/examples/upload_token.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/myapis/uploadImageToQiliu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/src/Qiniu/Auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/src/Qiniu/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/src/Qiniu/Etag.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/src/Qiniu/Http/Client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/src/Qiniu/Http/Error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/src/Qiniu/Http/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/src/Qiniu/Http/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/src/Qiniu/Processing/ImageUrlBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/src/Qiniu/Processing/Operation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/src/Qiniu/Processing/PersistentFop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/src/Qiniu/Storage/BucketManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/src/Qiniu/Storage/FormUploader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/src/Qiniu/Storage/ResumeUploader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/src/Qiniu/Storage/UploadManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/src/Qiniu/Zone.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/php-sdk/src/Qiniu/functions.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/anchor/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/baidumap/baidumap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/baidumap/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/clearhtml/clearhtml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/code/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/code/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/code/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/emoticons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/100.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/101.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/102.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/103.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/104.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/105.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/106.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/107.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/108.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/109.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/110.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/111.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/112.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/113.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/114.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/115.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/116.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/117.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/118.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/119.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/120.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/121.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/122.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/123.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/124.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/125.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/126.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/127.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/128.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/129.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/130.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/131.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/132.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/133.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/134.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/15.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/17.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/18.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/19.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/20.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/21.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/23.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/24.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/25.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/26.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/27.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/28.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/29.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/30.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/31.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/32.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/33.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/34.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/35.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/36.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/37.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/38.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/39.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/40.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/41.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/42.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/43.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/44.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/45.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/46.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/47.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/48.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/49.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/50.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/51.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/52.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/53.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/54.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/55.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/56.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/57.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/58.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/59.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/60.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/61.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/62.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/63.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/65.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/66.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/67.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/68.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/69.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/70.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/71.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/72.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/73.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/74.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/75.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/76.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/77.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/78.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/79.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/81.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/82.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/83.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/84.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/85.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/86.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/87.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/88.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/89.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/90.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/91.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/92.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/93.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/94.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/95.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/96.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/97.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/98.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/99.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/emoticons/images/static.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/filemanager/filemanager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/filemanager/images/file-16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/filemanager/images/file-64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/filemanager/images/folder-16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/filemanager/images/folder-64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/filemanager/images/go-up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/flash/flash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/hide/hide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/image/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/image/images/align_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/image/images/align_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/image/images/align_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/image/images/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/insertfile/insertfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/lineheight/lineheight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/link/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/map/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/map/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/media/media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/multiimage/images/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/multiimage/images/select-files-en.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/multiimage/images/select-files-zh_CN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/multiimage/images/swfupload.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/multiimage/multiimage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/pagebreak/pagebreak.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/plainpaste/plainpaste.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/preview/preview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/quickformat/quickformat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/table/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/template/html/1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/template/html/2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/template/html/3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/template/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/plugins/wordpaste/wordpaste.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/themes/common/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/themes/common/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/themes/common/flash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/themes/common/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/themes/common/media.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/themes/common/rm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/themes/default/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/themes/default/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/themes/default/default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/themes/qq/editor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/themes/qq/qq.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/themes/simple/simple.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/blog.css" afterPath="$PROJECT_DIR$/public/css/blog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/blog/article_detail.blade.php" afterPath="$PROJECT_DIR$/resources/views/blog/article_detail.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/component/bloglayout.blade.php" afterPath="$PROJECT_DIR$/resources/views/component/bloglayout.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/component/memlayout.blade.php" afterPath="$PROJECT_DIR$/resources/views/component/memlayout.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/member/article_add.blade.php" afterPath="$PROJECT_DIR$/resources/views/member/article_add.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/member/article_detail.blade.php" afterPath="$PROJECT_DIR$/resources/views/member/article_detail.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/member/article_edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/member/article_edit.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
     </list>
     <ignored path="chain.iws" />
@@ -34,33 +637,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Blog/ArticleController.php">
+      <file leaf-file-name="article_edit.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/member/article_edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="36" column="31" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="105">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding>
-                <element signature="e#127#152#0#PHP" expanded="true" />
+                <element signature="e#1322#1343#0#HTML" expanded="true" />
+                <element signature="e#3870#4804#0#HTML" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <file leaf-file-name="category.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/member/category.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+            <state relative-caret-position="285">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Member/ArticleController.php">
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/member/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="60">
+              <caret line="4" column="78" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/member/login.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="89" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/member/register.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="timeline.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/member/timeline.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todolist.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/member/todolist.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -69,52 +713,8 @@
       <file leaf-file-name="article.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/blog/article.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
+            <state relative-caret-position="390">
               <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-              <folding>
-                <element signature="e#510#625#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="76" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/blog/category.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-              <folding>
-                <element signature="e#589#704#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bloglayout.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/component/bloglayout.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/blog.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -123,20 +723,18 @@
       <file leaf-file-name="article_detail.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/blog/article_detail.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/member/article.blade.php">
+      <file leaf-file-name="category.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/blog/category.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="38" column="94" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="94" />
+            <state relative-caret-position="300">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -148,6 +746,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -157,9 +756,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Entity/AtcContent.php" />
-        <option value="$PROJECT_DIR$/app/Entity/Comment.php" />
-        <option value="$PROJECT_DIR$/app/Entity/Category.php" />
         <option value="$PROJECT_DIR$/app/Entity/Todolist.php" />
         <option value="$PROJECT_DIR$/app/Entity/Timeline.php" />
         <option value="$PROJECT_DIR$/app/Entities/Timeline.php" />
@@ -186,28 +782,31 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Member/CategoryController.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Entities/AtcContent.php" />
-        <option value="$PROJECT_DIR$/resources/views/member/article_edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Entities/Article.php" />
         <option value="$PROJECT_DIR$/resources/views/member/category.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/member/article.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/member/article_detail.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Member/TodolistController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Member/TimelineController.php" />
-        <option value="$PROJECT_DIR$/resources/views/component/memlayout.blade.php" />
         <option value="$PROJECT_DIR$/public/css/timeline.css" />
         <option value="$PROJECT_DIR$/resources/views/member/timeline.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/member/todolist.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Member/ArticleController.php" />
-        <option value="$PROJECT_DIR$/resources/views/member/article_add.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Blog/CategoryController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Blog/ArticleController.php" />
-        <option value="$PROJECT_DIR$/resources/views/blog/article_detail.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/blog/category.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/blog/article.blade.php" />
         <option value="$PROJECT_DIR$/public/css/blog.css" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/component/bloglayout.blade.php" />
+        <option value="$PROJECT_DIR$/public/js/lrz.bundle.js" />
+        <option value="$PROJECT_DIR$/public/php-sdk/myapis/uploadImageToQiliu.php" />
+        <option value="$PROJECT_DIR$/resources/views/member/article_add_editormd.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Member/ArticleController.php" />
+        <option value="$PROJECT_DIR$/resources/views/member/article_detail.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/member/article_edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/member/article_add.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/component/memlayout.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/blog/article_detail.blade.php" />
       </list>
     </option>
   </component>
@@ -319,6 +918,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="member" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chain" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="component" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -383,24 +1004,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chain" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -442,39 +1045,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chain" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -485,12 +1062,15 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public/editormd" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public/js" />
-      <recent name="$PROJECT_DIR$/resources/views/member" />
-      <recent name="$PROJECT_DIR$/app/Http/Middleware" />
-      <recent name="$PROJECT_DIR$/public/css" />
     </key>
   </component>
   <component name="RunManager">
@@ -562,25 +1142,28 @@
       <workItem from="1494727019765" duration="565000" />
       <workItem from="1496908651269" duration="48000" />
       <workItem from="1497446543091" duration="5023000" />
-      <workItem from="1497491040565" duration="12533000" />
+      <workItem from="1497491040565" duration="13331000" />
+      <workItem from="1497536765601" duration="55000" />
+      <workItem from="1497539474459" duration="5538000" />
+      <workItem from="1497575392753" duration="3910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86646000" />
+    <option name="totallyTimeSpent" value="96947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="23" width="1265" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2845462" sideWeight="0.47633135" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29844645" sideWeight="0.47633135" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951757" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26848873" sideWeight="0.52366865" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3274596" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32599118" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -611,42 +1194,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Models/ChainResult.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/logs/laravel-2017-03-31.log" />
-    <entry file="file://$PROJECT_DIR$/public/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="63" selection-start-line="58" selection-start-column="63" selection-end-line="58" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Member/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -662,13 +1209,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/component/memmenu.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/member/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/kindeditor-min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -762,18 +1302,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/member/todolist.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Member/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,21 +1330,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/member/article_edit.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Example.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Blog/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Blog/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="32" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="32" />
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/member/home.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/editormd/editormd.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="78" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="78" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Example.vue">
+    <entry file="file://$PROJECT_DIR$/public/editormd/editormd.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -822,16 +1384,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/member/article_add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="-30">
+          <caret line="2" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="163" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="82" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/php-sdk/myapis/uploadImageToQiliu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding>
+            <element signature="e#50#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/lrz.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/php-sdk/src/Qiniu/Http/Error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Member/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2098">
+          <caret line="65" column="40" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="40" />
+          <folding>
+            <element signature="e#129#154#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/component/bloglayout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="78" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/component/memlayout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/member/article.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="94" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/member/article_add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/member/article_detail.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#400#421#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/member/article_edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#1322#1343#0#HTML" expanded="true" />
+            <element signature="e#3870#4804#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/member/category.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="53" />
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/member/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="78" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="78" />
           <folding />
         </state>
       </provider>
@@ -844,10 +1517,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+    <entry file="file://$PROJECT_DIR$/resources/views/member/register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="540">
+          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -860,118 +1533,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Blog/CategoryController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/member/todolist.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#127#152#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/component/memlayout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="56" column="20" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="20" />
-          <folding>
-            <element signature="n#script#5;n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/member/article_detail.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="10" selection-start-line="3" selection-start-column="4" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="465">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/member/article.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="38" column="94" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Member/ArticleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Blog/ArticleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="31" />
-          <folding>
-            <element signature="e#127#152#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/blog/article_detail.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/blog/category.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="e#589#704#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/blog/article.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
+        <state relative-caret-position="390">
           <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding>
-            <element signature="e#510#625#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/blog/article_detail.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="76" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
+        <state relative-caret-position="195">
+          <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/component/bloglayout.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/blog/category.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+        <state relative-caret-position="300">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding />
         </state>
       </provider>
