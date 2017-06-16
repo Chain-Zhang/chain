@@ -11,6 +11,7 @@ namespace App\Http\Controllers\Blog;
 use App\Entities\Article;
 use App\Entities\Category;
 use App\Entities\AtcContent;
+use App\Entities\Comment;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Log;
 
@@ -37,9 +38,11 @@ class ArticleController extends Controller
         $article->content = $atc_content->content;
         $current_category = Category::find($article->category_id);
         $article->category_name = $current_category->name;
+        $comments = Comment::where('article_id', $id)->orderby('created_at')->get();
         return view('blog.article_detail',
             [
-                'article'=>$article
+                'article'=>$article,
+                'comments' => $comments
             ]);
     }
 }

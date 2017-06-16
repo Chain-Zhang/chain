@@ -215,6 +215,8 @@ class ArticleController extends Controller
             return $chain_result->toJson();
         }
         if (Article::destroy($id) > 0){
+            $atc_content = AtcContent::where('article_id', $id)->first();
+            AtcContent::destroy($atc_content->id);
             $chain_result->status = 0;
             $chain_result->message = '删除成功';
             return $chain_result->toJson();

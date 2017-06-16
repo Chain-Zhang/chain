@@ -65,6 +65,8 @@ Route::group(['prefix' => 'service'], function (){
 
     Route::post('add_todolist', 'Member\TodolistController@Add');
     Route::post('finish_todolist', 'Member\TodolistController@Finished');
+
+    Route::post('add_comment', 'Blog\CommentController@Add');
 });
 
 /*-----------------------------------------------

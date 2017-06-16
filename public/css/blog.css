@@ -165,3 +165,8 @@ h6, .h6 {
 .blog-footer p:last-child {
     margin-bottom: 0;
 }
+.comment-footer{
+    color: #bbb;
+    text-align: right;
+    border-bottom: 1px solid #e5e5e5;
+}
