@@ -23,7 +23,7 @@
     </ol>
     <div class="page-header">
         <h2 class="blog-post-title">{{$article->title}}</h2>
-        <p class="blog-post-meta">{{$article->created_at}}</p>
+        <p class="blog-post-meta">{{$article->created_at}} &nbsp;&nbsp;<span class="glyphicon glyphicon-eye-open">({{$article->read_count}})</span> </p>
     </div>
     <div id="content" class="panel-body">
         <div id="show_editor">
