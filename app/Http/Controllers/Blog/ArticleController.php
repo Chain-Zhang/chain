@@ -31,11 +31,12 @@ class ArticleController extends Controller
     public function toDetail($id)
     {
         $article = Article::find($id);
+        $article->read_count  = $article->read_count + 1;
+        $article->save();
         $atc_content = AtcContent::where('article_id', $id)->first();
         $article->content = $atc_content->content;
         $current_category = Category::find($article->category_id);
         $article->category_name = $current_category->name;
-        Log::info('博客标题'. $article->title);
         return view('blog.article_detail',
             [
                 'article'=>$article
