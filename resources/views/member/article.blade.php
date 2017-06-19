@@ -1,9 +1,9 @@
 @extends('component.memlayout')
 
 @section('content')
-    <div class="container" style="margin-top: 50px">
+    <div >
         <div class="page-header">
-            <h3>博客管理</h3>
+            <h3>博客列表</h3>
         </div>
         <div class="panel-body">
             <a class="btn btn-primary" href="{{url('member/article/add')}}"><span> <li class="glyphicon glyphicon-plus"></li>新增</span></a>

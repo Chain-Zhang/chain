@@ -9,6 +9,7 @@
 namespace App\Http\Controllers\Blog;
 
 
+use App\Entities\Article;
 use App\Entities\Comment;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -47,6 +48,9 @@ class CommentController extends Controller
         $comment->content = $content;
         $comment->nickname=$nickname;
         if ($comment->save()){
+            $article = Article::find($article_id);
+            $article->comment_count ++;
+            $article->save();
             $chain_result->status = 0;
             $chain_result->message = '添加成功';
             return $chain_result->toJson();

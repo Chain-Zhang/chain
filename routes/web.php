@@ -29,7 +29,6 @@ Route::group(['prefix' => 'blog'], function (){
  -----------------------------------------------*/
 Route::group(['prefix' => 'member'], function (){
     Route::get('login', 'Member\UserController@toLogin');
-    Route::get('register', 'Member\UserController@toRegister');
 
     Route::group(['middleware' => 'checklogin'], function (){
         Route::get('home', 'Member\UserController@toHome');

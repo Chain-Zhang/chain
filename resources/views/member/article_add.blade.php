@@ -6,41 +6,41 @@
     <link rel="stylesheet" href="{{asset('editormd/editormd.min.css')}}">
 @stop
 @section('content')
-    <div class="container" style="margin-top: 50px">
+    <div>
         <div class="page-header">
             <h3>添加博客</h3>
         </div>
         <div class="panel-body">
             <form class="form-horizontal" id="article-form" method="post">
                 <div class="form-group">
-                    <label class="col-sm-2 control-label">标题</label>
-                    <div class="col-sm-10">
+                    <label class="col-sm-1 control-label">标题</label>
+                    <div class="col-sm-11">
                         <input class="form-control" type="text" name="title">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-sm-2 control-label">概述</label>
-                    <div class="col-sm-10">
+                    <label class="col-sm-1 control-label">概述</label>
+                    <div class="col-sm-11">
                         <textarea class="form-control" rows="3" name="summary"></textarea>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-sm-2 control-label">内容</label>
-                    <div class="col-sm-10">
+                    <label class="col-sm-1 control-label">内容</label>
+                    <div class="col-sm-11">
                         <div id="myeditormd">
                             <textarea style="display:none;"></textarea>
                         </div>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-sm-2 control-label">关键词</label>
-                    <div class="col-sm-10">
+                    <label class="col-sm-1 control-label">关键词</label>
+                    <div class="col-sm-11">
                         <input class="form-control" type="text" name="keywords">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-sm-2 control-label">分类</label>
-                    <div class="col-sm-4">
+                    <label class="col-sm-1 control-label">分类</label>
+                    <div class="col-sm-5">
                         <select class="form-control" name="category_id">
                             @foreach($categories as $category)
                                 <option value="{{$category->id}}">{{$category->name}}</option>
@@ -55,7 +55,7 @@
                     </label>
                 </div>
                 <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
+                    <div class="col-sm-offset-1 col-sm-11">
                         <input type="submit" class="btn btn-primary" value="提交">
                     </div>
 

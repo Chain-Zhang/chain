@@ -8,6 +8,7 @@
     {{--<link href="{{asset('css/bootstrap.css')}}" media="all" rel="stylesheet" type="text/css" />--}}
     <link href="{{asset('css/sweetalert.css')}}" media="all" rel="stylesheet" type="text/css" />
     <link href="{{asset('css/font-awesome.css')}}" media="all" rel="stylesheet" type="text/css" />
+    <link href="{{asset('css/app.css')}}" media="all" rel="stylesheet" type="text/css" />
     <link rel="icon" href="{{asset('images/logo.ico')}}" type="image/x-icon"/>
     @yield('style')
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
@@ -71,23 +72,12 @@
                     </button>
                     <a class="navbar-brand" href="{{url('member/home')}}">Chain Blog Admin</a>
                 </div>
-                <div id="navbar" class="navbar-collapse collapse pull-left">
-                    <ul id="header_nav" class="nav navbar-nav">
-                        <li ><a href="{{url('member/home')}}">Home</a></li>
-                        <li ><a href="{{url('member/todolist')}}">To Do List</a></li>
-                        <li ><a href="{{url('member/timeline')}}">Time Line</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="{{url('member/article')}}">博客管理</a></li>
-                                <li><a href="{{url('member/category')}}">分类管理</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-
                 <div id="navbar" class="navbar-collapse collapse pull-right">
+
                     <ul class="nav navbar-nav">
+                        <li><a href="{{url('member/home')}}">Dashboard</a></li>
+                        <li><a href="{{url('member/todolist')}}">To Do List</a></li>
+                        <li><a href="{{url('member/timeline')}}">Time Line</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                 <img class="img-circle" src="{{url('images/avatar-male.jpg')}}" width="23" height="23"/>
@@ -109,8 +99,36 @@
             </div>
         </nav>
     @show
-    @section('content')
+    @section("main")
+    <div class="container-fluid">
 
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar list-group">
+                <a href="#dashboard-menu" class="list-group-item nav-header" data-toggle="collapse" target="menuFrame">分类管理</a>
+                <ul id="dashboard-menu" class="nav nav-list collapse">
+                    <li><a href="{{url('member/category')}}">分类列表</a></li>
+                </ul>
+
+                <a href="#dashboard-menu1" class="list-group-item nav-header" data-toggle="collapse" target="menuFrame">博客管理</a>
+                <ul id="dashboard-menu1" class="nav nav-list collapse">
+                    <li><a href="{{url('member/article')}}">博客列表</a></li>
+                    <li ><a href="{{url('member/article/add')}}">新增博客</a></li>
+                </ul>
+
+                <a href="#dashboard-menu1" class="list-group-item nav-header" data-toggle="collapse" target="menuFrame">用户管理</a>
+                <ul id="dashboard-menu1" class="nav nav-list collapse">
+                    <li><a href="{{url('member/article')}}">用户列表</a></li>
+                    <li ><a href="{{url('member/article/add')}}">新增用户</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2">
+            @section('content')
+
+            @show
+            </div>
+        </div>
+
+    </div>
     @show
 </body>
 

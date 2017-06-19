@@ -5,39 +5,21 @@
 @stop
 
 @section('style')
-    <link href="{{asset('css/app.css')}}" media="all" rel="stylesheet" type="text/css" />
+    <link href="{{asset('css/login.css')}}" media="all" rel="stylesheet" type="text/css" />
 @stop
 @section('header')
 @stop
-@section('content')
-    <div class="login">
-    <div class="login-wrapper">
-        <div class="login-container">
-            <a href="index.html"><img width="100" height="30" src="{{asset('images/logo-login%402x.png')}}" /></a>
-            <form>
-                <div class="form-group">
-                    <input class="form-control" placeholder="Username or Email" type="text" name="username">
-                </div>
-                <div class="form-group">
-                    <input class="form-control" placeholder="Password" type="password" name="password">
-                    {{--<input type="submit" value="&#xf054;">--}}
-                </div>
-                <div class="form-options clearfix">
-                    <a class="pull-right" href="#">Forgot password?</a>
-                    <div class="text-left">
-                        <label class="checkbox"><input type="checkbox"><span>Remember me</span></label>
-                    </div>
-                </div>
-            </form>
-            <div class="social-login">
-                <a class="btn btn-primary pull-left facebook" onclick="_login();">
-                    <i class="glyphicon glyphicon-ok"></i></a>
-            </div>
-            <p class="signup">
-                Don't have an account yet? <a href="{{url('member/register')}}">Sign up now</a>
-            </p>
-        </div>
-    </div>
+@section('main')
+    <div class="container">
+        <form class="form-signin">
+            <h2 class="form-signin-heading">Chain Blog Admin</h2>
+            <label for="username" class="sr-only">User Name</label>
+            <input type="text" id="username" name="username" class="form-control" placeholder="Username or Email" required autofocus>
+            <label for="password" class="sr-only">Password</label>
+            <input type="password" name="password" id="password" class="form-control" placeholder="Password" required>
+            <a class="btn btn-lg btn-primary btn-block" onclick="_login();">
+            <i>Sign in</i></a>
+        </form>
     </div>
 @stop
 

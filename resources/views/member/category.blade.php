@@ -4,9 +4,9 @@ category
 @stop
 
 @section('content')
-    <div class="container" style="margin-top: 50px">
+    <div >
         <div class="page-header">
-            <h3>分类管理</h3>
+            <h3>分类列表</h3>
         </div>
         <div class="panel-body">
             <span onclick="_addCategory();" class="btn btn-primary"><li class="glyphicon glyphicon-plus"></li>新增</span>

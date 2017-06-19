@@ -24,7 +24,7 @@
 @stop
 
 @section('content')
-    <div class="container" style="margin-top: 50px">
+    <div >
         <div class="page-header">
             <h3>My To Do List</h3>
         </div>
@@ -48,8 +48,6 @@
                         {!! $donelistHtml !!}
                     </ul>
                 </section>
-
-                <span class="btn btn-primary pull-right">生成timeline</span>
             </div>
 
         </div>

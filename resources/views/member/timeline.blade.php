@@ -3,7 +3,7 @@
     <link href="{{asset('css/timeline.css')}}" media="all" rel="stylesheet" type="text/css" />
 @stop
 @section('content')
-    <div class="container" style="margin-top: 50px">
+    <div>
         {{--<div class="page-header">--}}
             {{--<h3>My To Do List</h3>--}}
         {{--</div>--}}
