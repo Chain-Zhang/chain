@@ -32,6 +32,8 @@ Route::group(['prefix' => 'member'], function (){
 
     Route::group(['middleware' => 'checklogin'], function (){
         Route::get('home', 'Member\UserController@toHome');
+        Route::get('changepw', 'Member\UserController@toChangePassword');
+        Route::get('profile', 'Member\UserController@toProfile');
         Route::get('category', 'Member\CategoryController@toCategory');
 
         Route::get('article', 'Member\ArticleController@toArticle');
@@ -52,6 +54,7 @@ Route::group(['prefix' => 'service'], function (){
     Route::post('register', 'Member\UserController@Register');
     Route::post('login', 'Member\UserController@Login');
     Route::post('logout', 'Member\UserController@Logout');
+    Route::post('password_change', 'Member\UserController@ChangePassword');
 
 
     Route::post('add_category', 'Member\CategoryController@Add');

@@ -32,6 +32,13 @@ class UserController extends Controller
         return view('member.register');
     }
 
+    public  function toChangePassword(){
+        return view('member.changepassword');
+    }
+    public  function toProfile(){
+        return view('member.profile_edit');
+    }
+
     public function toHome(){
         return view('member.home');
     }
@@ -142,6 +149,40 @@ class UserController extends Controller
         }else{
             $chain_result->status = 1;
             $chain_result->message = '用户:【'.$username . ']已注册失败!';
+        }
+    }
+
+    /*-----------------------------------------------
+     *修改密码
+     -----------------------------------------------*/
+    public function ChangePassword(Request $request){
+        $chain_result = new ChainResult();
+        $oldpw = $request->input('oldpw','');
+        $newpw = $request->input('newpw','');
+        $confirmpw = $request->input('confirmpw','');
+
+        if($newpw != $confirmpw){
+            $chain_result->status = 1;
+            $chain_result->message = '两次输入的密码不一致';
+            return $chain_result->toJson();
+        }
+        $user =User::find($request->session()->get('user', '')->id);
+        if (Security::Encrypt($oldpw) != $user->password){
+            $chain_result->status = 1;
+            $chain_result->message = '旧密码不正确!';
+            return $chain_result->toJson();
+        }
+        $user->password = Security::Encrypt($newpw);
+        if ($user->save()){
+            Session::put('user', $user);
+            $chain_result->status = 0;
+            $chain_result->message = '密码修改成功!';
+            return $chain_result->toJson();
+        }
+        else{
+            $chain_result->status = 1;
+            $chain_result->message = '对不起, 密码修改失败, 请稍后再试!';
+            return $chain_result->toJson();
         }
     }
 }

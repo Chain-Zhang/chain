@@ -88,8 +88,8 @@
                                 @endif
                                 <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">修改密码</a></li>
-                                <li><a href="#">修改个人资料</a></li>
+                                <li><a href="{{url('member/changepw')}}">修改密码</a></li>
+                                <li><a href="{{url('member/profile')}}">修改个人资料</a></li>
                                 <li role="separator" class="divider"></li>
                                 <li><a onclick="_logout();">退出登录</a></li>
                             </ul>
@@ -115,8 +115,8 @@
                     <li ><a href="{{url('member/article/add')}}">新增博客</a></li>
                 </ul>
 
-                <a href="#dashboard-menu1" class="list-group-item nav-header" data-toggle="collapse" target="menuFrame">用户管理</a>
-                <ul id="dashboard-menu1" class="nav nav-list collapse">
+                <a href="#dashboard-menu2" class="list-group-item nav-header" data-toggle="collapse" target="menuFrame">用户管理</a>
+                <ul id="dashboard-menu2" class="nav nav-list collapse">
                     <li><a href="{{url('member/article')}}">用户列表</a></li>
                     <li ><a href="{{url('member/article/add')}}">新增用户</a></li>
                 </ul>
