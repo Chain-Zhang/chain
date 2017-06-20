@@ -21,7 +21,7 @@ class ArticleController extends Controller
 {
     public function toArticle()
     {
-        $articles = Article::where('status', '!=', 2)->get();
+        $articles = Article::where([])->orderby('created_at', 'desc')->get();
         foreach ($articles as $article) {
             $category = Category::find($article->category_id);
             if ($category != null) {

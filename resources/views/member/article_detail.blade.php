@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="{{asset('editormd/editormd.min.css')}}">
 @stop
 @section('content')
-    <div class="container" style="margin-top: 50px">
+    <div>
         <div class="page-header">
             <h3>{{$article->title}}</h3>
         </div>

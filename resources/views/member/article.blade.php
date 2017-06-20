@@ -17,6 +17,7 @@
                         <th>评论次数</th>
                         <th>推荐次数</th>
                         <th>状态</th>
+                        <th>创建日期</th>
                         <th>操作</th>
                     </tr>
                     </thead>
@@ -29,6 +30,7 @@
                             <td>{{$article->comment_count}}</td>
                             <td>{{$article->recommand_count}}</td>
                             <td>{{$article->getStatus()}}</td>
+                            <td>{{$article->created_at}}</td>
                             <td>
                                 <a href="{{url('member/article/detail', ['id'=>$article->id])}}">
                                     <span>

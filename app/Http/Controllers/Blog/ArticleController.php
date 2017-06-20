@@ -21,7 +21,7 @@ class ArticleController extends Controller
      *进入博客首页界面, 博客列表按时间排序
      -----------------------------------------------*/
     public function toArticles(){
-        $articles = Article::where([])->orderby('created_at', 'desc')->skip(0)->take(20)->get();
+        $articles = Article::where('status', 1)->orderby('created_at', 'desc')->skip(0)->take(20)->get();
         $categories = Category::all();
         return view('blog.article',[
             'articles' => $articles,
