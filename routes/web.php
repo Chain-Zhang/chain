@@ -45,6 +45,7 @@ Route::group(['prefix' => 'member'], function (){
 
         Route::get('todolist', 'Member\TodolistController@toTodolist');
         Route::get('timeline', 'Member\TimelineController@toTimeline');
+        Route::get('get_chart_data', 'Member\UserController@GetChartData');
     });
 });
 

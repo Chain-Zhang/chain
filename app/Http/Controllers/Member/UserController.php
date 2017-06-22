@@ -8,6 +8,7 @@
  */
 
 namespace App\Http\Controllers\Member;
+use App\Entities\Article;
 use App\Entities\User;
 use App\Entities\UserProfile;
 use App\Entities\VisitCapacity;
@@ -54,6 +55,22 @@ class UserController extends Controller
 
     public function toHome()
     {
+        $article_top10 = Article::where('status', 1)->orderby('read_count', 'desc')->skip(0)->take(10)->get();
+        return view('member.home',
+            [
+                'articles_top10' => $article_top10
+            ]);
+    }
+
+    public function GetChartData(){
+        $seven_labels = array();
+        $seven_data = array();
+        for ($i = 6; $i >= 0; $i-- ){
+            array_push($seven_labels,Carbon::today()->subDay($i)->toDateString());
+            array_push($seven_data,VisitCapacity::where('created_at','>=', Carbon::today()->subDay($i))
+                ->where('created_at', '<', Carbon::today()->subDay($i - 1))->count());
+        }
+
         $today_data = array();
         array_push($today_data, VisitCapacity::where('created_at','>=', Carbon::today())->where('site',1)->count());
         array_push($today_data, VisitCapacity::where('created_at','>=', Carbon::today())->where('site',2)->count());
@@ -72,13 +89,17 @@ class UserController extends Controller
         array_push($month_data, VisitCapacity::where('created_at','>=', Carbon::today()->subMonth())->where('site',3)->count());
         array_push($month_data, VisitCapacity::where('created_at','>=', Carbon::today()->subMonth())->where('site',4)->count());
 
-        return view('member.home', [
-            'today_data' => json_encode($today_data),
-            'week_data' => json_encode($week_data),
-            'month_data' => json_encode($month_data)
-        ]);
-    }
 
+        $chart_data = [
+            'seven_labels' => $seven_labels,
+            'seven_data' => $seven_data,
+            'today_data' => $today_data,
+            'week_data' => $week_data,
+            'month_data' => $month_data
+        ];
+        Log::info(json_encode($chart_data));
+        return $chart_data;
+    }
 
 
     /*-------------------Service--------------------*/
