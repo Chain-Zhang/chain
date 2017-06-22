@@ -10,10 +10,13 @@
 namespace App\Http\Controllers\Member;
 use App\Entities\User;
 use App\Entities\UserProfile;
+use App\Entities\VisitCapacity;
 use App\Http\Controllers\Controller;
 use App\Models\ChainResult;
 use App\Tools\Security;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Session;
 
@@ -49,8 +52,31 @@ class UserController extends Controller
             ]);
     }
 
-    public function toHome(){
-        return view('member.home');
+    public function toHome()
+    {
+        $today_data = array();
+        array_push($today_data, VisitCapacity::where('created_at','>=', Carbon::today())->where('site',1)->count());
+        array_push($today_data, VisitCapacity::where('created_at','>=', Carbon::today())->where('site',2)->count());
+        array_push($today_data, VisitCapacity::where('created_at','>=', Carbon::today())->where('site',3)->count());
+        array_push($today_data, VisitCapacity::where('created_at','>=', Carbon::today())->where('site',4)->count());
+
+        $week_data = array();
+        array_push($week_data, VisitCapacity::where('created_at','>=', Carbon::today()->subWeek())->where('site',1)->count());
+        array_push($week_data, VisitCapacity::where('created_at','>=', Carbon::today()->subWeek())->where('site',2)->count());
+        array_push($week_data, VisitCapacity::where('created_at','>=', Carbon::today()->subWeek())->where('site',3)->count());
+        array_push($week_data, VisitCapacity::where('created_at','>=', Carbon::today()->subWeek())->where('site',4)->count());
+
+        $month_data = array();
+        array_push($month_data, VisitCapacity::where('created_at','>=', Carbon::today()->subMonth())->where('site',1)->count());
+        array_push($month_data, VisitCapacity::where('created_at','>=', Carbon::today()->subMonth())->where('site',2)->count());
+        array_push($month_data, VisitCapacity::where('created_at','>=', Carbon::today()->subMonth())->where('site',3)->count());
+        array_push($month_data, VisitCapacity::where('created_at','>=', Carbon::today()->subMonth())->where('site',4)->count());
+
+        return view('member.home', [
+            'today_data' => json_encode($today_data),
+            'week_data' => json_encode($week_data),
+            'month_data' => json_encode($month_data)
+        ]);
     }
 
 

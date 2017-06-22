@@ -1,6 +1,5 @@
 @extends('component.memlayout')
 
-
 @section('content')
     <div >
         <div class="page-header">
@@ -8,25 +7,17 @@
         </div>
         <div class="panel-body">
             <div class="row placeholders">
-                <div class="col-xs-6 col-sm-3 placeholder">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-                    <h4>Label</h4>
-                    <span class="text-muted">Something else</span>
+                <div class="col-xs-6 col-sm-4 placeholder">
+                    <canvas id="today"  width="300" height="300"></canvas>
+                    <h4>今日访问</h4>
                 </div>
-                <div class="col-xs-6 col-sm-3 placeholder">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-                    <h4>Label</h4>
-                    <span class="text-muted">Something else</span>
+                <div class="col-xs-6 col-sm-4 placeholder">
+                    <canvas id="week" width="300" height="300" ></canvas>
+                    <h4>周访问</h4>
                 </div>
-                <div class="col-xs-6 col-sm-3 placeholder">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-                    <h4>Label</h4>
-                    <span class="text-muted">Something else</span>
-                </div>
-                <div class="col-xs-6 col-sm-3 placeholder">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-                    <h4>Label</h4>
-                    <span class="text-muted">Something else</span>
+                <div class="col-xs-6 col-sm-4 placeholder">
+                    <canvas id="month" width="300" height="300"></canvas>
+                    <h4>月访问</h4>
                 </div>
             </div>
 
@@ -160,4 +151,98 @@
             </div>
         </div>
     </div>
+@stop
+
+@section('script')
+    <script src="{{asset('js/Chart.bundle.js')}}"></script>
+    <script src="{{asset('js/Chart.js')}}"></script>
+    <script src="{{asset('js/app.js')}}"></script>
+    <script type="text/javascript">
+        var today = document.getElementById("today").getContext("2d");
+        var todayChart = new Chart(today,{
+            type: 'pie',
+            data: {
+                labels: [
+                    "首页文章列表",
+                    "分类文章列表",
+                    "关于我",
+                    "文章详情"
+                ],
+                datasets: [{
+                    data: {{$today_data}},
+                    backgroundColor: [
+                        window.chartColors.red,
+                        window.chartColors.orange,
+                        window.chartColors.purple,
+                        window.chartColors.green,
+                    ],
+                }]
+            },
+            options: {
+                responsive: true,
+            }
+        });
+
+        var week = document.getElementById("week").getContext("2d");
+        var weekChart = new Chart(week,{
+            type: 'doughnut',
+            data: {
+                labels: [
+                    "首页文章列表",
+                    "分类文章列表",
+                    "关于我",
+                    "文章详情"
+                ],
+                datasets: [{
+                    data: {{$week_data}},
+                    backgroundColor: [
+                        window.chartColors.red,
+                        window.chartColors.orange,
+                        window.chartColors.purple,
+                        window.chartColors.green,
+                    ],
+                }]
+            },
+            options: {
+                responsive: true,
+            }
+        });
+
+        var month = document.getElementById("month");
+        var color = Chart.helpers.color;
+        var monthChart = Chart.PolarArea(month,{
+            type: 'pie',
+            data: {
+                labels: [
+                    "首页文章列表",
+                    "分类文章列表",
+                    "关于我",
+                    "文章详情"
+                ],
+                datasets: [{
+                    data: {{$month_data}},
+                    backgroundColor: [
+                        color(window.chartColors.red).alpha(0.5).rgbString(),
+                        color(window.chartColors.orange).alpha(0.5).rgbString(),
+                        color(window.chartColors.purple).alpha(0.5).rgbString(),
+                        color(window.chartColors.green).alpha(0.5).rgbString()
+                    ],
+                }]
+            },
+            options: {
+                responsive: true,
+
+                scale: {
+                    ticks: {
+                        beginAtZero: true
+                    },
+                    reverse: false
+                },
+                animation: {
+                    animateRotate: false,
+                    animateScale: true
+                }
+            }
+        });
+    </script>
 @stop

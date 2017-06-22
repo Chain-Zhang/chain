@@ -13,50 +13,6 @@
     @yield('style')
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
     {{--<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>--}}
-    <script src="{{asset('js/jquery.min.js')}}" type="text/javascript"></script>
-    <script src="{{asset('js/jquery-ui.js')}}" type="text/javascript"></script>
-    <script src="{{asset('js/bootstrap.js')}}" type="text/javascript"></script>
-    <script src="{{asset('js/jquery.validate.js')}}" type="text/javascript"></script>
-    <script src="{{asset('js/sweetalert.min.js')}}" type="text/javascript"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#header_nav li').click(function () {
-                $(this).addClass('active').sibling().removeClass('active');
-            });
-
-        });
-
-        function _logout() {
-            $.ajax({
-                url:"{{url('service/logout')}}",
-                type:'POST',
-                dataType:'json',
-                cache:false,
-                data:{_token:"{{csrf_token()}}"},
-                success:function (data) {
-                    console.log('退出返回结果:');
-                    console.log(data);
-                    if (data == null){
-                        swal("退出失败", "服务器错误", "error");
-                        return;
-                    }
-                    if (data.status != 0){
-                        swal("退出失败", data.message, "error");
-                        return;
-                    }
-                    swal({title:"退出成功!",text: "您已退出登录!", type:"success" }, function(){
-                        location.href = "{{url('member/login')}}";
-                    });
-                },
-                error:function (xhr,status, error) {
-                    console.log(xhr);
-                    console.log(status);
-                    console.log(error);
-                }
-            });
-        }
-    </script>
-    @yield('script')
 </head>
 
 <body>
@@ -130,7 +86,51 @@
 
     </div>
     @show
+
+
+    <script src="{{asset('js/jquery.min.js')}}" type="text/javascript"></script>
+    <script src="{{asset('js/jquery-ui.js')}}" type="text/javascript"></script>
+    <script src="{{asset('js/bootstrap.js')}}" type="text/javascript"></script>
+    <script src="{{asset('js/jquery.validate.js')}}" type="text/javascript"></script>
+    <script src="{{asset('js/sweetalert.min.js')}}" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#header_nav li').click(function () {
+                $(this).addClass('active').sibling().removeClass('active');
+            });
+
+        });
+
+        function _logout() {
+            $.ajax({
+                url:"{{url('service/logout')}}",
+                type:'POST',
+                dataType:'json',
+                cache:false,
+                data:{_token:"{{csrf_token()}}"},
+                success:function (data) {
+                    console.log('退出返回结果:');
+                    console.log(data);
+                    if (data == null){
+                        swal("退出失败", "服务器错误", "error");
+                        return;
+                    }
+                    if (data.status != 0){
+                        swal("退出失败", data.message, "error");
+                        return;
+                    }
+                    swal({title:"退出成功!",text: "您已退出登录!", type:"success" }, function(){
+                        location.href = "{{url('member/login')}}";
+                    });
+                },
+                error:function (xhr,status, error) {
+                    console.log(xhr);
+                    console.log(status);
+                    console.log(error);
+                }
+            });
+        }
+    </script>
+    @yield('script')
 </body>
-
-
 </html>
