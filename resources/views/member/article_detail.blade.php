@@ -19,7 +19,6 @@
     <script src="{{asset('editormd/editormd.min.js')}}" type="text/javascript"></script>
     <script src="{{asset('editormd/lib/marked.min.js')}}"></script>
     <script src="{{asset('editormd/lib/prettify.min.js')}}"></script>
-
     <script src="{{asset('editormd/lib/raphael.min.js')}}"></script>
     <script src="{{asset('editormd/lib/underscore.min.js')}}"></script>
     <script src="{{asset('editormd/lib/sequence-diagram.min.js')}}"></script>

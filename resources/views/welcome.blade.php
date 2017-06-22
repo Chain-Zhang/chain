@@ -7,10 +7,6 @@
 
         <title>Chain's Blog</title>
         <link rel="icon" href="{{asset('images/logo.ico')}}" type="image/x-icon"/>
-        <!-- Fonts -->
-        {{--<link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">--}}
-        {{--<link href="{{asset('css/app.css')}}" media="all" rel="stylesheet" type="text/css" />--}}
-        <!-- Styles -->
         <style>
             html, body {
                 background-color: mintcream;;
@@ -73,7 +69,7 @@
 
                 <div class="links">
                     <a href="{{url('blog')}}">Blog</a>
-                    <a href="#">About Me</a>
+                    <a href="{{url('aboutme')}}">About Me</a>
                 </div>
             </div>
         </div>

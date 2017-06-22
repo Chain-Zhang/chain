@@ -5,7 +5,6 @@
 @stop
 
 @section('main')
-    <div class="col-sm-8 blog-main">
         <ol class="breadcrumb">
             <li class="active">首页</li>
         </ol>
@@ -28,6 +27,7 @@
             </ul>
         </nav>
         @endif
-
-    </div><!-- /.blog-main -->
+@stop
+@section('right_sider')
+    @include('component.blog_sider')
 @stop

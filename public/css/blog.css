@@ -139,14 +139,14 @@ h6, .h6 {
  */
 
 .blog-post {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 .blog-post-title {
     margin-bottom: 5px;
-    font-size: 30px;
+    font-size: 24px;
 }
 .blog-post-meta {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: #999;
 }
 

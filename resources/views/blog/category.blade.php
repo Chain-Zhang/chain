@@ -5,7 +5,6 @@
 @stop
 
 @section('main')
-    <div class="col-sm-8 blog-main">
         <ol class="breadcrumb">
             <li><a href="{{url('blog')}}">首页</a></li>
             <li class="active">{{$current_category->name}}</li>
@@ -21,6 +20,7 @@
                 </div>
             </div><!-- /.blog-post -->
         @endforeach
-
-    </div><!-- /.blog-main -->
+@stop
+@section('right_sider')
+    @include('component.blog_sider')
 @stop

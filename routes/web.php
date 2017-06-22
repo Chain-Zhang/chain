@@ -14,6 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('aboutme', 'Blog\UserProfileController@toAboutMe');
 
 /*-----------------------------------------------
  *blog模块路由配置
@@ -55,6 +56,7 @@ Route::group(['prefix' => 'service'], function (){
     Route::post('login', 'Member\UserController@Login');
     Route::post('logout', 'Member\UserController@Logout');
     Route::post('password_change', 'Member\UserController@ChangePassword');
+    Route::post('profile_edit', 'Member\UserController@EditProfile');
 
 
     Route::post('add_category', 'Member\CategoryController@Add');

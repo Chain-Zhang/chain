@@ -15,45 +15,32 @@
 </head>
 
 <body>
-<div class="container">
+@section('content')
+    <div class="container">
 
-    <div class="blog-header">
-        <h1 class="blog-title">Chain's Blog</h1>
-        <p class="lead blog-description">Thoughts, stories and ideas.</p>
-    </div>
+        <div class="blog-header">
+            <h1 class="blog-title">Chain's Blog</h1>
+            <p class="lead blog-description">Thoughts, stories and ideas.</p>
+        </div>
 
-    <div class="row">
-        @section('main')
+        <div class="row">
 
-        @show
-        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-            <div class="sidebar-module sidebar-module-inset">
-                <h4>About</h4>
-                <p><em>Chain</em> worked as a middle-level Software Engineer in Snmi. His major work was <em>PHP</em> development based on <em>Laravel</em> framework and <em>C#</em> development based on <em>Asp.Net MVC</em> framework.</p>
-            </div>
-            <div class="sidebar-module sidebar-module-inset ">
-                <h4>分类</h4>
-                <ol class="list-unstyled">
-                    @foreach($categories as $category)
-                        <li><a href="{{url('blog/category', ['id'=>$category->id])}}">{{$category->name}}</a></li>
-                    @endforeach
-                </ol>
+            <div class="col-sm-9 blog-main">
+            @section('main')
+
+            @show
             </div>
 
-            {{--<div class="sidebar-module sidebar-module-inset">--}}
-                {{--<h4>Elsewhere</h4>--}}
-                {{--<ol class="list-unstyled">--}}
-                    {{--<li><a href="#">GitHub</a></li>--}}
-                    {{--<li><a href="#">Twitter</a></li>--}}
-                    {{--<li><a href="#">Facebook</a></li>--}}
-                {{--</ol>--}}
-            {{--</div>--}}
-        </div><!-- /.blog-sidebar -->
+            <div class="col-sm-3 blog-sidebar">
+                @section('right_sider')
 
-    </div><!-- /.row -->
+                @show
+            </div>
 
-</div><!-- /.container -->
+        </div><!-- /.row -->
 
+    </div><!-- /.container -->
+@show
 <footer class="blog-footer">
     @section('footer')
     <p>@Copyright 2017   Chain</p>
