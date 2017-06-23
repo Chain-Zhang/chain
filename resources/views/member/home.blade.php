@@ -70,8 +70,8 @@
                     labels: [
                         "首页文章列表",
                         "分类文章列表",
+                        "文章详情",
                         "关于我",
-                        "文章详情"
                     ],
                     datasets: [{
                         data: data.today_data,
@@ -95,8 +95,8 @@
                     labels: [
                         "首页文章列表",
                         "分类文章列表",
+                        "文章详情",
                         "关于我",
-                        "文章详情"
                     ],
                     datasets: [{
                         data: data.week_data,
@@ -121,8 +121,8 @@
                     labels: [
                         "首页文章列表",
                         "分类文章列表",
+                        "文章详情",
                         "关于我",
-                        "文章详情"
                     ],
                     datasets: [{
                         data: data.month_data,
