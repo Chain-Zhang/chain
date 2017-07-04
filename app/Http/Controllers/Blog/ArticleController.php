@@ -12,6 +12,7 @@ use App\Entities\Article;
 use App\Entities\Category;
 use App\Entities\AtcContent;
 use App\Entities\Comment;
+use App\Entities\Tourist;
 use App\Entities\VisitCapacity;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -50,10 +51,17 @@ class ArticleController extends Controller
         $visit_capacity->ip = $request->getClientIp();
         $visit_capacity->site = 3;
         $visit_capacity->save();
+        $tourist = Tourist::where('ip', $request->getClientIp())->first();
+        if (empty($tourist)){
+            $tourist = new Tourist();
+        }
+        Log::info("评论人昵称: " . $tourist->nickname);
+        Log::info("评论人IP: " . $tourist->ip);
         return view('blog.article_detail',
             [
                 'article'=>$article,
-                'comments' => $comments
+                'comments' => $comments,
+                'tourist' => $tourist
             ]);
     }
 }

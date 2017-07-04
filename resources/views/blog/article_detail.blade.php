@@ -60,7 +60,8 @@
                 </div>
                 <div class="form-group">
                     <label lass="control-label" for="nickname">昵称:</label>
-                    <input type="text" name="nickname" class="form-control" style="width: 300px">
+                    <input type="text" name="nickname" class="form-control" {{empty($tourist->nickname) ? '' : 'readonly'}}
+                           value="{{empty($tourist->nickname) ? '' : $tourist->nickname}}" style="width: 300px">
                 </div>
                 <div class="form-group">
                     <input type="submit" class="btn btn-primary" value="发表">
@@ -159,14 +160,14 @@
                     console.log('新增留言返回结果:');
                     console.log(data);
                     if (data == null){
-                        swal("新增失败", "服务器错误", "error");
+                        swal("评论失败", "服务器错误", "error");
                         return;
                     }
                     if (data.status != 0){
-                        swal("新增失败", data.message, "error");
+                        swal("评论失败", data.message, "error");
                         return;
                     }
-                    swal({title:"新增成功!",text: "您的留言已发布成功!", type:"success" }, function(){
+                    swal({title:"评论成功!",text: "您的留言已发布成功!", type:"success" }, function(){
                         location.reload();
                     });
                 },

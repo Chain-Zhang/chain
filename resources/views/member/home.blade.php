@@ -115,7 +115,7 @@
 
             var month = document.getElementById("month");
             var color = Chart.helpers.color;
-            var monthChart = Chart.PolarArea(month,{
+            var monthChart = new Chart(month,{
                 type: 'pie',
                 data: {
                     labels: [
@@ -127,25 +127,16 @@
                     datasets: [{
                         data: data.month_data,
                         backgroundColor: [
-                            color(window.chartColors.red).alpha(0.5).rgbString(),
-                            color(window.chartColors.orange).alpha(0.5).rgbString(),
-                            color(window.chartColors.purple).alpha(0.5).rgbString(),
-                            color(window.chartColors.green).alpha(0.5).rgbString()
+                            window.chartColors.red,
+                            window.chartColors.orange,
+                            window.chartColors.purple,
+                            window.chartColors.green,
                         ],
                     }]
                 },
                 options: {
                     responsive: true,
-                    scale: {
-                        ticks: {
-                            beginAtZero: true
-                        },
-                        reverse: false
-                    },
-                    animation: {
-                        animateRotate: false,
-                        animateScale: true
-                    }
+
                 }
             });
 
