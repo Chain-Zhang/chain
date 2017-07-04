@@ -6,8 +6,8 @@
 
 @section('main')
         <ol class="breadcrumb">
-            <li><a href="{{url('blog')}}">首页</a></li>
-            <li class="active">{{$current_category->name}}</li>
+            <li class=" blog-nav"><a href="{{url('blog')}}">首页</a></li>
+            <li class="active blog-nav">{{$current_category->name}}</li>
         </ol>
         @foreach($articles as $article)
             <div class="blog-post">
@@ -20,6 +20,7 @@
                 </div>
             </div><!-- /.blog-post -->
         @endforeach
+        {{$articles->links()}}
 @stop
 @section('right_sider')
     @include('component.blog_sider')

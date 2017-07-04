@@ -7,7 +7,7 @@
         </div>
         <div class="panel-body">
             <a class="btn btn-primary" href="{{url('member/article/add')}}"><span> <li class="glyphicon glyphicon-plus"></li>新增</span></a>
-        @if(count($articles) > 0)
+            @if(count($articles) > 0)
                 <table class="table">
                     <thead>
                     <tr>
@@ -54,11 +54,13 @@
                     @endforeach
                     </tbody>
                 </table>
+                {{$articles->links()}}
             @else
                 <br>
                 <br>
                 <p>查无数据</p>
             @endif
+
         </div>
     </div>
 @stop

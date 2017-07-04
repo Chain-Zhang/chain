@@ -18,7 +18,7 @@ use App\Entities\VisitCapacity;
 class CategoryController extends Controller
 {
     public function toCategory(Request $request,$id){
-        $articles = Article::where('category_id', $id)->orderby('created_at', 'desc')->get();
+        $articles = Article::where('category_id', $id)->orderby('created_at', 'desc')->paginate(5);
         $categories = Category::all();
         $current_category = Category::find($id);
 

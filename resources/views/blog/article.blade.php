@@ -5,8 +5,8 @@
 @stop
 
 @section('main')
-        <ol class="breadcrumb">
-            <li class="active">首页</li>
+        <ol class="breadcrumb ">
+            <li class="active blog-nav">首页</li>
         </ol>
         @foreach($articles as $article)
             <div class="blog-post">
@@ -20,13 +20,7 @@
                 </div>
             </div><!-- /.blog-post -->
         @endforeach
-        @if(count($articles) >= 10)
-        <nav>
-            <ul class="pager">
-                <li><a href="#">查看更多</a></li>
-            </ul>
-        </nav>
-        @endif
+        {{$articles->links()}}
 @stop
 @section('right_sider')
     @include('component.blog_sider')

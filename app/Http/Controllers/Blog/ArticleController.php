@@ -24,7 +24,7 @@ class ArticleController extends Controller
      *进入博客首页界面, 博客列表按时间排序
      -----------------------------------------------*/
     public function toArticles(Request $request){
-        $articles = Article::where('status', 1)->orderby('created_at', 'desc')->get();
+        $articles = Article::where('status', 1)->orderby('created_at', 'desc')->paginate(5);
         $categories = Category::all();
         $visit_capacity = new VisitCapacity();
         $visit_capacity->ip = $request->getClientIp();

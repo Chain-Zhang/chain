@@ -12,8 +12,8 @@
 @section('content')
 <div class="container blog-main" style="margin-top: 50px">
     <ol class="breadcrumb">
-        <li><a href="{{url('blog')}}">首页</a></li>
-        <li><a href="{{url('blog/category', ['id' => $article->category_id])}}">{{$article->category_name}}</a></li>
+        <li class="blog-nav"><a href="{{url('blog')}}">首页</a></li>
+        <li class="blog-nav"><a href="{{url('blog/category', ['id' => $article->category_id])}}">{{$article->category_name}}</a></li>
     </ol>
     <div class="page-header">
         <h2 class="blog-post-title">{{$article->title}}</h2>
