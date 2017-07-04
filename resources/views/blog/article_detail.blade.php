@@ -26,6 +26,28 @@
     </div>
     <div>
         <div class="page-header">
+            <h3>我要留言</h3>
+        </div>
+        <div class="panel-body">
+            <form class="form-horizontal" id="comment-form" method="post">
+                <input name="article_id" type="hidden" value="{{$article->id}}">
+                <div class="form-group">
+                    <label for="content">您的留言(支持markdown语法)</label>
+                    <textarea name="content" rows="5" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <label lass="control-label" for="nickname">昵称:</label>
+                    <input type="text" name="nickname" class="form-control" {{empty($tourist->nickname) ? '' : 'readonly'}}
+                    value="{{empty($tourist->nickname) ? '' : $tourist->nickname}}" style="width: 300px">
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-primary" value="发表">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div>
+        <div class="page-header">
            <h3>留言({{count($comments)}}条)</h3>
         </div>
         <div class="panel-body">
@@ -47,28 +69,7 @@
             @endforeach
         </div>
     </div>
-    <div>
-        <div class="page-header">
-            <h3>我要留言</h3>
-        </div>
-        <div class="panel-body">
-            <form class="form-horizontal" id="comment-form" method="post">
-                <input name="article_id" type="hidden" value="{{$article->id}}">
-                <div class="form-group">
-                    <label for="content">您的留言(支持markdown语法)</label>
-                    <textarea name="content" rows="5" class="form-control"></textarea>
-                </div>
-                <div class="form-group">
-                    <label lass="control-label" for="nickname">昵称:</label>
-                    <input type="text" name="nickname" class="form-control" {{empty($tourist->nickname) ? '' : 'readonly'}}
-                           value="{{empty($tourist->nickname) ? '' : $tourist->nickname}}" style="width: 300px">
-                </div>
-                <div class="form-group">
-                    <input type="submit" class="btn btn-primary" value="发表">
-                </div>
-            </form>
-        </div>
-    </div>
+
 </div>
 @stop
 
