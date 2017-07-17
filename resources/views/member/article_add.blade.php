@@ -171,7 +171,7 @@
                         swal("新增失败", data.message, "error");
                         return;
                     }
-                    swal({title:"新增成功!",text: "博客【"+title+"】已添加成功!", type:"success" }, function(){
+                    swal({title:"新增成功!",text: data.message, type:"success" }, function(){
                         location.href = "{{url('member/article')}}";
                     });
                 },
