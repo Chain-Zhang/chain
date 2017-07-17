@@ -14,6 +14,7 @@ use App\Entities\AtcContent;
 use App\Entities\Category;
 use App\Http\Controllers\Controller;
 use App\Models\ChainResult;
+use App\Utility\BaiduPush;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 
@@ -121,6 +122,10 @@ class ArticleController extends Controller
             $atc_content->content = $content;
             $atc_content->article_id = $article->id;
             if ($atc_content->save()) {
+                if ($article->status == 1){
+                    $arrUrls = array(['http://www.chairis.cn/blog/article/'. $article->id]);
+                    BaiduPush::Push($arrUrls);
+                }
                 $chain_result->status = 0;
                 $chain_result->message = '添加成功';
                 return $chain_result->toJson();
@@ -187,6 +192,10 @@ class ArticleController extends Controller
             $atc_content = AtcContent::where('article_id', $id)->first();
             $atc_content->content = $content;
             if ($atc_content->save()) {
+                if ($article->status == 1){
+                    $arrUrls = array(['http://www.chairis.cn/blog/article/'. $article->id]);
+                    BaiduPush::Push($arrUrls);
+                }
                 $chain_result->status = 0;
                 $chain_result->message = '修改成功';
                 return $chain_result->toJson();
