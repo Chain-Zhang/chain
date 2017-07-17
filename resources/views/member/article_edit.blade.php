@@ -218,7 +218,7 @@
                     swal("修改失败", data.message, "error");
                     return;
                 }
-                swal({title:"修改成功!",text: "博客【"+title+"】已修改成功!", type:"success" }, function(){
+                swal({title:"修改成功!",text: data.message, type:"success" }, function(){
                     location.href = "{{url('member/article')}}";
                 });
             },

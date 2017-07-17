@@ -123,7 +123,7 @@ class ArticleController extends Controller
             $atc_content->article_id = $article->id;
             if ($atc_content->save()) {
                 if ($article->status == 1){
-                    $arrUrls = array(['http://www.chairis.cn/blog/article/'. $article->id]);
+                    $arrUrls = array('http://www.chairis.cn/blog/article/'. $article->id);
                     BaiduPush::Push($arrUrls);
                 }
                 $chain_result->status = 0;
@@ -192,12 +192,18 @@ class ArticleController extends Controller
             $atc_content = AtcContent::where('article_id', $id)->first();
             $atc_content->content = $content;
             if ($atc_content->save()) {
+                $pushResult = null;
                 if ($article->status == 1){
-                    $arrUrls = array(['http://www.chairis.cn/blog/article/'. $article->id]);
-                    BaiduPush::Push($arrUrls);
+                    $arrUrls = array('http://www.chairis.cn/blog/article/'. $article->id);
+                    $pushResult = json_decode(BaiduPush::Push($arrUrls)) ;
+                    Log::info($pushResult->success);
                 }
                 $chain_result->status = 0;
-                $chain_result->message = '修改成功';
+                if (isset($pushResult->success) && $pushResult->success > 0){
+                    $chain_result->message = '博客' . $article->title . '已修改成功! 且成功推出到百度收录';
+                }else{
+                    $chain_result->message = '博客' . $article->title . '已修改成功!,但推送到百度收录失败';
+                }
                 return $chain_result->toJson();
             }
 
