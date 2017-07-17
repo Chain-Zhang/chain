@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="keywords" content="chain, 博客, 编程技术, 前端技术, 后端技术, 个人博客" />
+    <meta name="description" content="chain的个人博客,记录个人的编程技术心得,和个人生活感悟。">
+    <meta name="author" content="chain">
     <title>@yield('title')</title>
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{asset('css/blog.css')}}" rel="stylesheet">
