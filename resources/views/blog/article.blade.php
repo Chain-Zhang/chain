@@ -1,7 +1,7 @@
 @extends('component.bloglayout')
 
 @section('title')
-    Chain Blog
+    博客列表
 @stop
 
 @section('main')

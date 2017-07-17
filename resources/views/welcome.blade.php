@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Chain's Blog</title>
+        <meta name="keywords" content="chain, 博客, 编程技术, 前端, 后端, 个人博客" />
+        <title>Chain的博客</title>
         <link rel="icon" href="{{asset('images/logo.ico')}}" type="image/x-icon"/>
         <style>
             html, body {

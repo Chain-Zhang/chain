@@ -1,7 +1,7 @@
 @extends('component.bloglayout')
 
 @section('title')
-    Chain Blog
+    {{$article->title}}
 @stop
 
 @section('style')
