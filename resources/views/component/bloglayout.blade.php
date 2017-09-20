@@ -8,7 +8,7 @@
     <meta name="keywords" content="chain, 博客, 编程技术, 前端技术, 后端技术, 个人博客" />
     <meta name="description" content="chain的个人博客,记录个人的编程技术心得,和个人生活感悟。">
     <meta name="author" content="chain">
-    <title>@yield('title')</title>
+    <title>@yield('title') - Chain的博客</title>
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{asset('css/blog.css')}}" rel="stylesheet">
     <link rel="icon" href="{{asset('images/logo.ico')}}" type="image/x-icon"/>
