@@ -15,7 +15,6 @@
                         <th>分类</th>
                         <th>阅读次数</th>
                         <th>评论次数</th>
-                        <th>推荐次数</th>
                         <th>状态</th>
                         <th>创建日期</th>
                         <th>操作</th>
@@ -28,25 +27,30 @@
                             <td>{{$article->category_name}}</td>
                             <td>{{$article->read_count}}</td>
                             <td>{{$article->comment_count}}</td>
-                            <td>{{$article->recommand_count}}</td>
                             <td>{{$article->getStatus()}}</td>
                             <td>{{$article->created_at}}</td>
                             <td>
-                                <a href="{{url('member/article/detail', ['id'=>$article->id])}}">
+                                <a href="{{url('member/article/detail', ['id'=>$article->id])}}" title="查看文章">
                                     <span>
                                         <li class="glyphicon glyphicon-list-alt"></li>
                                     </span>
                                 </a>
                                 |
-                                <a href="{{url('member/article/edit', ['id'=>$article->id])}}">
+                                <a href="{{url('member/article/edit', ['id'=>$article->id])}}" title="编辑文章">
                                     <span>
                                         <li class="glyphicon glyphicon-pencil"></li>
                                     </span>
                                 </a>
                                 |
-                                <a onclick="_delArticle({{$article->id}});">
+                                <a onclick="_delArticle({{$article->id}});" title="删除文章">
                                     <span >
                                         <li class="glyphicon glyphicon-trash"></li>
+                                    </span>
+                                </a>
+                                |
+                                <a onclick="_pushToBaidu({{$article->id}});" title="推送到百度">
+                                    <span >
+                                        <li class="glyphicon glyphicon-hand-up"></li>
                                     </span>
                                 </a>
                             </td>
@@ -105,6 +109,36 @@
                             }
                         });
                     });
+        }
+
+        function _pushToBaidu(id) {
+                $.ajax({
+                    url:"{{url('service/push_article')}}",
+                    dataType:'json',
+                    type:'POST',
+                    cache:false,
+                    data:{id:id,_token:"{{csrf_token()}}"},
+                    success:function (data) {
+                        console.log('推送返回结果:');
+                        console.log(data);
+                        if (data == null){
+                            swal("推送失败", "服务器错误", "error");
+                            return;
+                        }
+                        if (data.status != 0){
+                            swal("推送失败", data.message, "error");
+                            return;
+                        }
+                        swal({title:"推送成功!",text: data.message, type:"success" }, function(){
+                            location.reload();
+                        });
+                    },
+                    error:function (xhr,status, error) {
+                        console.log(xhr);
+                        console.log(status);
+                        console.log(error);
+                    }
+                });
         }
     </script>
 @stop

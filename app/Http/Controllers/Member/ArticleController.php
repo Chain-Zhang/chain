@@ -245,4 +245,33 @@ class ArticleController extends Controller
             $chain_result->toJson();
         }
     }
+
+    public  function PushBaidu(Request $request){
+        $chain_result = new ChainResult();
+
+        $id = $request->input('id','');
+        if ($id == ''){
+            $chain_result->status = 1;
+            $chain_result->message = '博客编号为空';
+            return $chain_result->toJson();
+        }
+        $article = Article::find($id);
+        if ($article == null){
+            $chain_result->status = 1;
+            $chain_result->message = '博客编号【' . $id . '】不存在!';
+            return $chain_result->toJson();
+        }
+
+        $arrUrls = array('http://www.chairis.cn/blog/article/'. $id);
+        $pushResult = json_decode(BaiduPush::Push($arrUrls)) ;
+        if (isset($pushResult->success) && $pushResult->success > 0){
+            $chain_result->status = 0;
+            $chain_result->message = '文章【'.$article->title.'】成功推送到百度';
+            return $chain_result->toJson();
+        }else{
+            $chain_result->status = 1;
+            $chain_result->message = '文章【'.$article->title.'】推送到百度失败';
+            $chain_result->toJson();
+        }
+    }
 }

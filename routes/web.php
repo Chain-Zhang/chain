@@ -67,6 +67,7 @@ Route::group(['prefix' => 'service'], function (){
     Route::post('add_article', 'Member\ArticleController@Add');
     Route::post('del_article', 'Member\ArticleController@Del');
     Route::post('mod_article', 'Member\ArticleController@Mod');
+    Route::post('push_article', 'Member\ArticleController@PushBaidu');
 
     Route::post('add_todolist', 'Member\TodolistController@Add');
     Route::post('finish_todolist', 'Member\TodolistController@Finished');
