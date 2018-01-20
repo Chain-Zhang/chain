@@ -46,6 +46,10 @@ Route::group(['prefix' => 'member'], function (){
         Route::get('todolist', 'Member\TodolistController@toTodolist');
         Route::get('timeline', 'Member\TimelineController@toTimeline');
         Route::get('get_chart_data', 'Member\UserController@GetChartData');
+
+        Route::get('project_list', 'Member\MyprojectController@toList');
+        Route::get('project_edit/{id}', 'Member\MyprojectController@toEdit');
+        Route::get('project_add', 'Member\MyprojectController@toAdd');
     });
 });
 
@@ -58,6 +62,11 @@ Route::group(['prefix' => 'service'], function (){
     Route::post('logout', 'Member\UserController@Logout');
     Route::post('password_change', 'Member\UserController@ChangePassword');
     Route::post('profile_edit', 'Member\UserController@EditProfile');
+
+    Route::post('add_project', 'Member\MyprojectController@ProjectAdd');
+    Route::post('project_edit', 'Member\MyprojectController@ProjectEdit');
+    Route::post('project_del', 'Member\MyprojectController@ProjectDel');
+    Route::post('project_enable', 'Member\MyprojectController@ProjectEnable');
 
 
     Route::post('add_category', 'Member\CategoryController@Add');

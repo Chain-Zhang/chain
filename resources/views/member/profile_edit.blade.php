@@ -37,9 +37,21 @@
                 </div>
             </div>
             <div class="form-group">
+                <label class="col-sm-3 control-label" for="github">Github:</label>
+                <div class="col-sm-4">
+                    <input class="form-control" name="github" type="text" value="{{$user_profile->github}}">
+                </div>
+            </div>
+            <div class="form-group">
                 <label class="col-sm-3 control-label" for="phone_number">手机号:</label>
                 <div class="col-sm-4">
                     <input class="form-control" name="phone_number" type="text" value="{{$user_profile->phone_number}}">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label" for="tags">标签:</label>
+                <div class="col-sm-4">
+                    <input class="form-control" name="tags" type="text" value="{{$user_profile->tags}}">
                 </div>
             </div>
             <div class="form-group">
@@ -67,6 +79,8 @@
                     var email = $('input[name=email]').val();
                     var qq_number = $('input[name=qq_number]').val();
                     var phone_number = $('input[name=phone_number]').val();
+                    var github = $('input[name=github]').val();
+                    var tags = $('input[name=tags]').val();
                     var intro = $('textarea[name=intro]').val();
                     $.ajax({
                         url: "{{url('service/profile_edit')}}",
@@ -79,6 +93,8 @@
                             email: email,
                             qq_number: qq_number,
                             phone_number: phone_number,
+                            github: github,
+                            tags: tags,
                             intro: intro,
                             _token: "{{csrf_token()}}"
                         },

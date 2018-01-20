@@ -253,6 +253,8 @@ class UserController extends Controller
         $email = $request->input('email','');
         $qq_number = $request->input('qq_number','');
         $phone_number = $request->input('phone_number','');
+        $github = $request->input('github','');
+        $tags = $request->input('tags','');
         $intro = $request->input('intro','');
 
         $user = $request->session()->get('user', '');
@@ -271,6 +273,8 @@ class UserController extends Controller
         $user_profile->email = $email;
         $user_profile->qq_number = $qq_number;
         $user_profile->phone_number = $phone_number;
+        $user_profile->github = $github;
+        $user_profile->tags = $tags;
         $user_profile->intro = $intro;
         if ($user_profile->save()){
             $chain_result->status = 0;

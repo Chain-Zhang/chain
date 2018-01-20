@@ -46,6 +46,7 @@
                             <ul class="dropdown-menu">
                                 <li><a href="{{url('member/changepw')}}">修改密码</a></li>
                                 <li><a href="{{url('member/profile')}}">修改个人资料</a></li>
+                                <li><a href="{{url('member/project_list')}}">我的项目经验</a></li>
                                 <li role="separator" class="divider"></li>
                                 <li><a onclick="_logout();">退出登录</a></li>
                             </ul>
