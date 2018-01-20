@@ -23,7 +23,7 @@ class UserProfileController extends Controller
         $tags = explode(",",$user_profile->tags);
         $user_profile->tag_arr = $tags;
 
-        $projects = Myproject::where([["user_id", 3],["status",1]])->orderby("pro_date","desc")->get();
+        $projects = Myproject::where([["user_id", 1],["status",1]])->orderby("pro_date","desc")->get();
 
         $tag_class = array("label-primary","label-success","label-info","label-warning","label-danger");
         $iconbg_class = array("bg-primary","bg-warning","bg-info","bg-success","bg-danger");
