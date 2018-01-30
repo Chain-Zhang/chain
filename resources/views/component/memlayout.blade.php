@@ -71,12 +71,6 @@
                     <li><a href="{{url('member/article')}}">博客列表</a></li>
                     <li ><a href="{{url('member/article/add')}}">新增博客</a></li>
                 </ul>
-
-                <a href="#dashboard-menu2" class="list-group-item nav-header" data-toggle="collapse" target="menuFrame">用户管理</a>
-                <ul id="dashboard-menu2" class="nav nav-list collapse">
-                    <li><a href="{{url('member/article')}}">用户列表</a></li>
-                    <li ><a href="{{url('member/article/add')}}">新增用户</a></li>
-                </ul>
             </div>
             <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2">
             @section('content')
